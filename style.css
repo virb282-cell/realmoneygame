@@ -93,8 +93,8 @@ body {
     filter 0.2s ease-out;
 
   color: #ffffff;                        /* pure white */
-    font-size: 0.9rem;                     /* thoda bada */
-     font-weight: 800;                      /* extra bold */
+    font-size: 0.7rem;                     /* thoda bada */
+     font-weight: 500;                      /* extra bold */
 
   text-transform: uppercase;             /* optional: sab caps */
   letter-spacing: 0.04em;                /* thoda spacing */
@@ -604,6 +604,7 @@ table tbody tr:hover {
     page-break-inside: avoid;
   }
 }
+
 
 
 
