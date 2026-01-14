@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakoli Betting Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="script.js" defer></script>
+
+
+</head>
+<body>
+  <header class="header">
+    <h1> Online Game</h1>
+    <p>Bet time: 6:00 AM to 8:00 PM • Result: 10:00 PM (YouTube Live)</p>
+  </header>
+
+  <!-- Today Symbols -->
+ <section class="section">
+  <h2>Today's Symbols</h2>
+  <div class="symbols">
+    <div class="symbol-card symbol-umbrella">Umbrela</div>
+    <div class="symbol-card symbol-ball">Ball</div>
+    <div class="symbol-card symbol-sun">Sun</div>
+    <div class="symbol-card symbol-lamp">Lamp</div>
+    <div class="symbol-card symbol-cow">Cow</div>
+    <div class="symbol-card symbol-bucket">Bucket</div>
+    <div class="symbol-card symbol-rabbit">Rabbit</div>
+    <div class="symbol-card symbol-pigeon">Pigeon</div>
+    <div class="symbol-card symbol-butterfly">Butterfly</div>
+    <div class="symbol-card symbol-rose">Rose</div>
+    <div class="symbol-card symbol-embottle">Embottle</div>
+    <div class="symbol-card symbol-kite">Kite</div>
+  </div>
+</section>
+
+
+  <!-- Bet Form -->
+  <section class="section">
+    <h2>Place Your </h2>
+    <p id="bet-status" class="info"></p>
+
+    <form id="bet-form">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" id="name" required />
+      </div>
+
+      <div class="form-group">
+        <label>Mobile Number</label>
+        <input type="tel" id="mobile" required />
+      </div>
+      <div class="form-group">
+  <label>Email</label>
+  <input type="email" id="email" required />
+</div>
+
+      <div class="form-group">
+        <label>Amount</label>
+        <select id="amount" required>
+          <option value="">Select amount</option>
+          <option value="10">₹10</option>
+          <option value="100">₹20</option>
+          <option value="50">₹50</option>
+          <option value="100">₹100</option>
+          <option value="100">₹200</option>
+          <option value="100">₹500</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Symbol</label>
+        <select id="symbol" required>
+          <option value="">Select symbol</option>
+          <option value="Kite">Kite</option>
+          <option value="Star">Star</option>
+          <option value="Moon">Moon</option>
+          <option value="Sun">Sun</option>
+          <option value="Fish">Fish</option>
+          <option value="Bird">Bird</option>
+          <option value="Horse">Horse</option>
+          <option value="Tree">Tree</option>
+          <option value="Flower">Flower</option>
+          <option value="Diamond">Diamond</option>
+        </select>
+      </div>
+
+      <!-- In future: replace this with Razorpay Pay Now -->
+      <button type="submit" id="pay-btn">Pay & Submit</button>
+    </form>
+  </section>
+
+  <!-- Result / YouTube link -->
+  <section class="section">
+    <h2>Today Result (10:00 PM)</h2>
+    <p>
+      Result YouTube Live link: 
+      <a href="#" id="yt-link" target="_blank">Coming Soon</a>
+    </p>
+    <!-- Yaha daily YouTube link manually change kar sakte ho -->
+  </section>
+
+  <!-- Winners list -->
+  <section class="section">
+    <h2>Daily Winners</h2>
+    <div id="winners-list" class="winners">
+      <!-- JS se inject hoga -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Demo website for practice only. Real-money betting laws country-wise different hote hain.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
