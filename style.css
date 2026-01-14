@@ -124,51 +124,51 @@ body {
 
 /* har symbol ki background image */
 .symbol-umbrella {
-  background-image: url("images/Umbrela.png");
+  background-image: url("Umbrela.png");
 }
 
 .symbol-ball {
-  background-image: url("images/Ball.png");
+  background-image: url("Ball.png");
 }
 
 .symbol-sun {
-  background-image: url("images/Sun.png");
+  background-image: url("Sun.png");
 }
 
 .symbol-lamp {
-  background-image: url("images/Lamp.png");
+  background-image: url("Lamp.png");
 }
 
 .symbol-cow {
-  background-image: url("images/Cow.png");
+  background-image: url("Cow.png");
 }
 
 .symbol-bucket {
-  background-image: url("images/Bucket.png");
+  background-image: url("Bucket.png");
 }
 
 .symbol-rabbit {
-  background-image: url("images/Rabbit.png");
+  background-image: url("Rabbit.png");
 }
 
 .symbol-pigeon {
-  background-image: url("images/Pigeon.png");
+  background-image: url("Pigeon.png");
 }
 
 .symbol-butterfly {
-  background-image: url("images/Butterfly.png");
+  background-image: url("Butterfly.png");
 }
 
 .symbol-rose {
-  background-image: url("images/Rose.png");
+  background-image: url("Rose.png");
 }
 
 .symbol-embottle {
-  background-image: url("images/Bhavra.png");
+  background-image: url("Bhavra.png");
 }
 
 .symbol-kite {
-  background-image: url("images/Kite.png");
+  background-image: url("Kite.png");
 }
 
 
@@ -591,3 +591,4 @@ table tbody tr:hover {
     page-break-inside: avoid;
   }
 }
+
